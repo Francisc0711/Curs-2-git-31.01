@@ -1,3 +1,17 @@
+## Setarea numelui global
+git config --global user.name "Numele tau"
+
+## Citirea numelui global
+git config --global user.name
+
+## Setarea emailului global
+git config --global user.email "emailul"
+
+## Citirea emailului global
+
+git config --global user.email
+
+
 
 ## initializeaza proiectul de git local - creeaza un folder .git ascuns 
 git init 
@@ -5,4 +19,14 @@ git init
 ## descarca de pe server un proiect de git
 git clone https://github.com/username/project 
 
-##
+## Arata lista de commituri 
+git log
+git log --oneline
+
+## Arata statusul fisierelor(daca sunt schimbate)
+git status
+git status -s
+
+
+## Comenzi de creeare
+git add
