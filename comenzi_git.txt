@@ -27,6 +27,10 @@ git log --oneline
 git status
 git status -s
 
+## Denumirea branchului initial main
+git config --global init.defaultBranch main
+
+
 
 ## Comenzi de adaugare a fisierelor in STAGED (inainte de creeare a commitului)
 git add filename
@@ -51,3 +55,9 @@ git pull
 git pull origin
 
 
+## Pentru a lucra cu branch uri
+## LIstarea tuturor branch urilor
+git branch 
+
+## Redenumirea branch ului curent in ce este dupa -m
+git branch -m main
