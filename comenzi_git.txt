@@ -45,3 +45,6 @@ git commit -am "Acesta este un mesaj descriptiv al commitului"
 
 ## Deschiderea editorului Visual Studio Code ca editor default pentru git
 git config --global core.editor "code --wait"
+
+## Modificarea mesajului cu care am dat commit
+git commit --amend
